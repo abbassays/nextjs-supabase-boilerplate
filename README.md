@@ -1,12 +1,12 @@
-# Next.js Supabase Boilerplate
+# Abbassays Next.js Supabase Boilerplate
 
-A modern boilerplate for building full-featured web applications with a powerful tech stack. This repository is configured with Next.js, shadcn UI, TypeScript, Supabase, Tailwind CSS, and React Query to help you jumpstart your project with best practices and a robust development environment.
+A modern boilerplate for building full-featured web applications with a powerful tech stack. This repository is configured with Next.js, shadcn UI, TypeScript, Supabase, Tailwind CSS, React Query, ESLint, and Prettier to help you jumpstart your project with best practices and a robust development environment.
 
 ---
 
 ## Table of Contents
 
-- [Next.js Supabase Boilerplate](#nextjs-supabase-boilerplate)
+- [Abbassays Next.js Supabase Boilerplate](#abbassays-nextjs-supabase-boilerplate)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
@@ -16,7 +16,7 @@ A modern boilerplate for building full-featured web applications with a powerful
     - [Environment Variables](#environment-variables)
     - [Development](#development)
     - [Production Build](#production-build)
-    - [Linting](#linting)
+    - [Linting, Formatting, and Typechecking](#linting-formatting-and-typechecking)
   - [Contributing](#contributing)
   - [Contact](#contact)
 
@@ -30,8 +30,9 @@ A modern boilerplate for building full-featured web applications with a powerful
 - **Supabase** integration for scalable backend services.
 - **Tailwind CSS** for rapid and responsive UI development.
 - **React Query** for efficient data fetching and caching.
-- **pnpm** as the package manager for fast and reliable dependency management.
-- Turbopack enabled for a blazing-fast development server.
+- **ESLint & Prettier** for code quality and formatting.
+- **pnpm** as the package manager.
+- **Turbopack** enabled for a blazing-fast development server.
 
 ---
 
@@ -41,9 +42,12 @@ A modern boilerplate for building full-featured web applications with a powerful
 - **React**: `^19.0.0`
 - **TypeScript**: `^5`
 - **Tailwind CSS**: `^3.4.1`
-- **Supabase**: `@supabase/ssr` `^0.5.2`
+- **Supabase**:
+  - `@supabase/ssr` `^0.5.2`
+  - `@supabase/supabase-js` `^2.48.1`
 - **React Query**: `@tanstack/react-query` `^5.66.0` (plus devtools)
-- **shadcn UI**: Integrated via Radix UI components and Tailwind CSS
+- **ESLint**: `^9.19.0` (with various plugins and configs)
+- **Prettier**: `^3.4.2` (with Tailwind CSS plugin)
 - **pnpm**: Package manager
 
 For complete version details, please refer to the [`package.json`](./package.json).
@@ -62,8 +66,8 @@ For complete version details, please refer to the [`package.json`](./package.jso
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/abbassays-nextjs.git
-   cd abbassays-nextjs
+   git clone https://github.com/your-username/abbassays-nextjs-supabase-boilerplate.git
+   cd abbassays-nextjs-supabase-boilerplate
    ```
 
 2. **Install dependencies:**
@@ -107,13 +111,39 @@ Then start the production server with:
 pnpm start
 ```
 
-### Linting
+### Linting, Formatting, and Typechecking
 
-Keep your codebase clean and consistent by running:
+This project includes ESLint and Prettier for maintaining code quality and consistency, along with TypeScript typechecking.
 
-```bash
-pnpm lint
-```
+- **Lint your code (with auto-fix):**
+
+  ```bash
+  pnpm lint
+  ```
+
+- **Format your code using Prettier:**
+
+  ```bash
+  pnpm format
+  ```
+
+- **Run both linting and formatting:**
+
+  ```bash
+  pnpm style
+  ```
+
+- **Typecheck your project:**
+
+  ```bash
+  pnpm typecheck
+  ```
+
+- **Add new shadcn UI components:**
+
+  ```bash
+  pnpm ui
+  ```
 
 ---
 
