@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit",
+    "ui": "pnpm dlx shadcn@latest add",
+    "lint": "next lint --fix",
+    "format": "prettier --write .",
+    "style": "pnpm lint && pnpm format"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -30,6 +34,8 @@
     "lucide-react": "^0.474.0",
     "next": "15.1.6",
     "next-themes": "^0.4.4",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",
@@ -44,8 +50,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "eslint": "^9.19.0",
     "eslint-config-next": "15.1.6",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
