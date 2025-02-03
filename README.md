@@ -66,8 +66,8 @@ For complete version details, please refer to the [`package.json`](./package.jso
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/abbassays-nextjs-supabase-boilerplate.git
-   cd abbassays-nextjs-supabase-boilerplate
+   git clone https://github.com/abbassays/nextjs-supabase-boilerplate.git
+   cd nextjs-supabase-boilerplate
    ```
 
 2. **Install dependencies:**
