@@ -10,7 +10,8 @@
     "ui": "pnpm dlx shadcn@latest add",
     "lint": "next lint --fix",
     "format": "prettier --write .",
-    "style": "pnpm lint && pnpm format"
+    "style": "pnpm lint && pnpm format",
+    "supa:types": "supabase gen types --lang=typescript --project-id '<supabase-project-id>' --schema public > ./src/types/supabase.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
