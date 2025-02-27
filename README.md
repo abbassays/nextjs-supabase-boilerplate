@@ -1,4 +1,4 @@
-# Abbassays Next.js Supabase Boilerplate
+# Next.js Supabase React-Query Boilerplate
 
 A modern boilerplate for building full-featured web applications with a powerful tech stack. This repository is configured with Next.js, shadcn UI, TypeScript, Supabase, Tailwind CSS, React Query, ESLint, and Prettier to help you jumpstart your project with best practices and a robust development environment.
 
