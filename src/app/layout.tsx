@@ -9,6 +9,7 @@ import AppProviders from './providers';
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
 const geistMono = Geist_Mono({
@@ -29,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-geist`}
       >
         <AppProviders>
           <Toaster richColors />
