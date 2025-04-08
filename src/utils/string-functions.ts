@@ -1,5 +1,3 @@
-import { getDialCodeFromCountryCode } from '@/constants/countries';
-
 export const getFullName = (
   firstName: string | null | undefined,
   lastName: string | null | undefined,
@@ -7,16 +5,14 @@ export const getFullName = (
   return `${firstName || ''} ${lastName || ''}`.trim();
 };
 
-export const enumToLabel = (str: string) => {
-  return str.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+export const getInitials = (
+  firstName: string | null | undefined,
+  lastName: string | null | undefined,
+) => {
+  return `${firstName?.[0]}${lastName?.[0]}`.trim();
 };
 
-export const getFullPhoneNumber = (
-  countryCode: string,
-  phoneNumber: string,
-) => {
-  return `${getDialCodeFromCountryCode(countryCode)}${phoneNumber}`.replace(
-    /[^\d]/g,
-    '',
-  );
+export const enumToLabel = (str?: string | null) => {
+  if (!str) return '';
+  return str.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
 };
