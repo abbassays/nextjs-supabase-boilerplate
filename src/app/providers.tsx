@@ -1,8 +1,9 @@
 'use client';
-
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { useMemo } from 'react';
+
+import { PostHogProvider } from '@/components/posthog/posthog-provider';
 
 type AppProviderProps = {
   children: React.ReactNode;
@@ -13,7 +14,7 @@ export default function AppProviders({ children }: AppProviderProps) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {children}
+      <PostHogProvider>{children}</PostHogProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
   );

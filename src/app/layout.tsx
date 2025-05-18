@@ -4,6 +4,8 @@ import { Toaster } from 'sonner';
 
 import './globals.css';
 
+import PosthogAnalytics from '@/components/posthog/analytics';
+
 import AppProviders from './providers';
 
 const geistSans = Geist({
@@ -33,6 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} font-geist`}
       >
         <AppProviders>
+          <PosthogAnalytics />
           <Toaster richColors />
           {children}
         </AppProviders>
