@@ -9,7 +9,12 @@ import {
   FormLabel,
   FormMessage,
 } from '@/components/ui/form';
-import { Select, SelectContent, SelectItem, SelectTrigger } from '@/components/ui/select';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+} from '@/components/ui/select';
 
 import { cn } from '@/lib/utils';
 
@@ -51,7 +56,7 @@ export function ControlledSelect<TFieldValues extends FieldValues>({
             <FormControl>
               <SelectTrigger
                 className={cn(
-                  'w-full gap-2.5 focus:ring-0 focus:ring-white md:min-w-28 ',
+                  'w-full gap-2.5 focus:ring-0 focus:ring-white md:min-w-28',
                   className,
                 )}
               >

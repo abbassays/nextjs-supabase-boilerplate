@@ -1,1 +1,1 @@
-export type Database = object
+export type Database = object;

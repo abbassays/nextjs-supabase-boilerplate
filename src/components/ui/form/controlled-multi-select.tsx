@@ -91,7 +91,7 @@ export function MultiSelect<TFieldValues extends FieldValues>({
       {label && <Label>{label}</Label>}
       {!!selectedOptions.length && (
         <div className='mt-2 flex flex-wrap items-center gap-1'>
-          <p className='mr-2 text-sm text-muted-foreground '>
+          <p className='mr-2 text-sm text-muted-foreground'>
             Selected {label}:{' '}
           </p>
           {selectedOptions.map((option) => (
