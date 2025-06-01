@@ -1490,9 +1490,7 @@ export function getCountryNameFromCode(code: string) {
 }
 
 export function getDialCodeFromCountryCode(code: string) {
-  return countries
-    .find((country) => country.code === code)
-    ?.dialCode.replace('+', '');
+  return countries.find((country) => country.code === code)?.dialCode;
 }
 
 export function getCountryDetailsFromCode(code: string) {
