@@ -6,7 +6,7 @@ A modern boilerplate for building full-featured web applications with a powerful
 
 ## Table of Contents
 
-- [Abbassays Next.js Supabase Boilerplate](#abbassays-nextjs-supabase-boilerplate)
+- [Next.js Supabase React-Query Boilerplate](#nextjs-supabase-react-query-boilerplate)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Tech Stack](#tech-stack)
@@ -40,14 +40,14 @@ A modern boilerplate for building full-featured web applications with a powerful
 
 - **Next.js**: `15.1.6`
 - **React**: `^19.0.0`
-- **TypeScript**: `^5`
-- **Tailwind CSS**: `^3.4.1`
+- **TypeScript**: `^5.8.3`
+- **Tailwind CSS**: `^3.4.17`
 - **Supabase**:
-  - `@supabase/ssr` `^0.5.2`
-  - `@supabase/supabase-js` `^2.48.1`
-- **React Query**: `@tanstack/react-query` `^5.66.0` (plus devtools)
-- **ESLint**: `^9.19.0` (with various plugins and configs)
-- **Prettier**: `^3.4.2` (with Tailwind CSS plugin)
+  - `@supabase/ssr` `^0.6.1`
+  - `@supabase/supabase-js` `^2.49.4`
+- **React Query**: `@tanstack/react-query` `^5.76.1` (plus devtools)
+- **ESLint**: `^9.27.0` (with various plugins and configs)
+- **Prettier**: `^3.5.3` (with Tailwind CSS plugin)
 - **pnpm**: Package manager
 
 For complete version details, please refer to the [`package.json`](./package.json).
