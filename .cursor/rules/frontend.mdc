@@ -1,0 +1,86 @@
+---
+description: 
+globs: *.tsx
+alwaysApply: false
+---
+# ✨ UI Design Rules for Cursor AI (Frontend)
+
+These rules MUST be followed strictly for every UI component, screen, or layout generated using Cursor AI.
+
+## 1. 🧩 Component Library
+
+- Use **[ShadCN/UI](mdc:https:/ui.shadcn.dev)** components wherever possible.
+  - Prefer native `shadcn` components over custom HTML/CSS unless a component does not exist.
+  - Import components like `Button`, `Card`, `Skeleton`, `Input`, `Label`, `Dialog`, `Tooltip`, `Tabs`, `Accordion`, etc., directly from ShadCN.
+  - To install shadcn components, run `pnpm ui <component>`.
+- Do **not** use raw HTML or Tailwind-only UIs for elements that already exist in ShadCN.
+
+## 2. 📐 Layout & Spacing
+
+- Use **Tailwind CSS** for layout/styling, with a consistent spacing scale (`p-4`, `gap-4`, etc.).
+- Ensure all screens have proper padding (`p-6` or more) and use a **max-w-screen-md** or **lg** container for content readability.
+- Use **responsive design** techniques — layouts must look great on mobile, tablet, and desktop.
+
+## 3. 🧼 UI Quality
+
+- Keep the UI **minimal, clean, and modern**.
+- Use proper **headings**, **labels**, and **consistent font sizes** (`text-xl`, `text-sm`, etc.).
+- Buttons should have **clear labels** (e.g., "Submit", "Save", "Continue") and use appropriate variants (`variant="default"`, `variant="ghost"`).
+- Use **Cards** (`<Card>`) to group content instead of plain divs.
+- Use **rounded-2xl**, **shadow-sm**, and **border** for polished elements.
+
+## 4. 🔘 Button Rules
+
+- Use the `Button` component from `@/components/ui/button.tsx`.
+- For loading states:
+  - Use the `isLoading` prop instead of showing loading text
+  - The component automatically handles loading spinner placement
+- For icons:
+  - Use `icon` prop for right-aligned icons
+  - Use `iconLeft` prop for left-aligned icons
+  - Never render icons as children of the button
+- For links:
+  - Never wrap a `<Link>` tag inside a `<Button>`
+  - Instead, wrap the `<Button>` with a `<Link>` component
+  - Example: `<Link href="/path"><Button>Click me</Button></Link>`
+
+## 5. 🌀 Loading States
+
+- For all async components or data fetches, use `Skeleton` loaders.
+- Do **not** show "Loading..." text — always show a **realistic UI skeleton** that mimics the final layout.
+- Examples: `Skeleton` blocks for images, lines for text, cards for loading lists, etc.
+
+## 6. ⚠️ Error and Empty States
+
+- Always handle:
+  - **Loading**
+  - **Error**
+  - **Empty** states
+- Use `Alert`, `Callout`, or `EmptyState` style components with icons and short messages.
+
+## 7. 🔄 Interactivity & UX
+
+- Add subtle hover/active states on all interactive elements.
+- Use **`Tooltip`** for action icons without text.
+- Use `Dialog` or `Sheet` instead of opening new pages for modals.
+
+## 8. 📦 Forms & Validation
+
+- Use ShadCN `Form`, `Input`, `Textarea`, `Select`, and `Checkbox`.
+- Apply **Zod validation** with helpful error messages shown beneath each field.
+- Use proper spacing (`space-y-4`) between fields and a `Submit` button at the bottom.
+
+## 9. 📱 Responsiveness
+
+- Mobile-first design.
+- Always use Tailwind breakpoints (`sm:`, `md:`, `lg:`) to adapt UI across devices.
+- On mobile, collapse filters/sidebars into `Sheet` or `Accordion`.
+
+---
+
+Following these rules will ensure your app always looks polished, modern, and user-friendly.
+
+> ✅ Keep it clean.  
+> ✅ Keep it consistent.  
+> ✅ Use ShadCN.  
+> ✅ Respect UX.
