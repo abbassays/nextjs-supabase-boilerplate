@@ -58,9 +58,9 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 7) Backend integration
 
 - Supabase client (browser and SSR), auth patterns
-  - [docs/backend/auth-and-supabase.md](./backend/auth-and-supabase.md) 🚨 Missing
+  - [docs/backend/auth-and-supabase.md](./backend/auth-and-supabase.md)
 - Next.js Server Actions and database access
-  - [docs/backend/server-actions-and-db.md](./backend/server-actions-and-db.md) 🚨 Missing
+  - [docs/backend/server-actions-and-db.md](./backend/server-actions-and-db.md)
 
 ### 8) Application utilities
 
