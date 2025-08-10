@@ -50,10 +50,10 @@ Read these documents in order. This file provides a brief overview and links to 
 
 ### 6) Data layer
 
-- Data fetching with React Query (queries, mutations, caching, invalidation)
-  - [docs/data/react-query.md](./data/react-query.md) 🚨 Missing
-- Query keys and patterns
-  - [docs/data/query-keys.md](./data/query-keys.md) 🚨 Missing
+- Data fetching with React Query (queries, caching, invalidation)
+  - [docs/data/react-query.md](./data/react-query.md)
+- Mutations and Actions (writes and error handling)
+  - [docs/data/mutations-and-actions.md](./data/mutations-and-actions.md)
 
 ### 7) Backend integration
 
