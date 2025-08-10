@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 
+import { env } from '@/env';
+
 export const appConfig = {
   title: 'Next.js App',
   description:
@@ -9,7 +11,8 @@ export const appConfig = {
   defaultLocale: 'en-US',
   defaultCurrency: 'USD',
   defaultCountryCode: 'US',
-  appUrl: 'http://example.com',
+  appUrl: env.NEXT_PUBLIC_APP_URL,
+  appName: env.NEXT_PUBLIC_APP_NAME,
   emails: {
     support: 'support@example.com',
     sender: 'noreply@example.com',
