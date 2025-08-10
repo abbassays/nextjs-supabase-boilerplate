@@ -43,7 +43,10 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 5) UI system
 
 - Components, theming, and styling (shadcn UI + Tailwind)
-  - [docs/ui/components-and-styling.md](./ui/components-and-styling.md) 🚨 Missing
+  - [docs/ui/components-and-styling.md](./ui/components-and-styling.md)
+  - [docs/ui/button.md](./ui/button.md)
+  - [docs/ui/form.md](./ui/form.md)
+  - [docs/ui/table.md](./ui/table.md)
 
 ### 6) Data layer
 
