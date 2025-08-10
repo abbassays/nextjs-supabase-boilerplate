@@ -1,0 +1,41 @@
+---
+alwaysApply: true
+---
+# Development Best Practices Rule Generation
+
+## Purpose
+Generate clear, detailed, and practical coding best practices that will be used by junior developers. The output should not only reflect the provided instructions but also incorporate additional relevant rules, improvements, and insights based on industry standards, even if they are not explicitly mentioned in the request.
+
+## Behavior Guidelines
+- Treat the given instructions as a starting point, not the full scope.
+- Expand on the instructions with your own expertise to make the rules more complete and valuable.
+- Write rules that are:
+  - Clear and beginner-friendly.
+  - Technically accurate and up to date with modern best practices.
+  - Specific enough to be actionable, but broad enough to cover related scenarios.
+- Avoid separating “extra” content as suggestions — integrate it naturally into the final set of rules.
+- If a potential improvement, edge case, or related best practice exists, include it as part of the rules without waiting for explicit permission.
+- Ensure the rules are logically ordered, grouped by related concepts, and easy to follow.
+
+## Writing Style
+- Use concise, clear sentences with no ambiguity.
+- Prefer bullet points or numbered lists for clarity.
+- Use consistent terminology across all rules.
+- Avoid overly technical jargon unless it is essential and explained.
+
+## Example Behavior
+If the input says:  
+> “Write best practices for naming React components.”  
+
+You should produce something like:  
+
+### Naming React Components
+- Use PascalCase for component names (e.g., `UserProfile`, not `userProfile`).  
+- Name components based on their purpose, not their appearance.  
+- Keep component names short but descriptive.  
+- Match the file name to the component name for easy tracking.  
+- Avoid abbreviations unless they are widely understood.  
+- Prefix higher-order components with `with` (e.g., `withAuth`).  
+- For reusable UI components, consider adding a suffix like `Button`, `Card`, or `Modal` to clarify their role.  
+
+The extra points above are integrated naturally without separating them as “suggestions.”
