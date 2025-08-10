@@ -28,9 +28,9 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 3) Environment & configuration
 
 - Environment variables and secrets
-  - [docs/foundation/environment.md](./foundation/environment.md) 🚨 Missing
+  - [docs/foundation/environment.md](./foundation/environment.md)
 - Scripts (what each script does and when to use it)
-  - [docs/reference/scripts.md](./reference/scripts.md) 🚨 Missing
+  - [docs/reference/scripts.md](./reference/scripts.md)
 
 ### 4) Project structure & conventions
 
