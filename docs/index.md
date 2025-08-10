@@ -35,11 +35,10 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 4) Project structure & conventions
 
 - Directory structure and module layout
-  - [docs/foundation/directory-structure.md](./foundation/directory-structure.md) 🚨 Missing
+  - [docs/foundation/directory-structure.md](./foundation/directory-structure.md)
 - Code style, linting, and formatting
-  - [docs/quality/code-style.md](./quality/code-style.md) 🚨 Missing
 - Naming, file placement, and imports
-  - [docs/foundation/conventions.md](./foundation/conventions.md) 🚨 Missing
+  - [docs/foundation/conventions.md](./foundation/conventions.md)
 
 ### 5) UI system
 
@@ -63,7 +62,6 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 8) Application utilities
 
 - Shared utilities, hooks, and constants
-  - [docs/foundation/utilities-and-hooks.md](./foundation/utilities-and-hooks.md) 🚨 Missing
 - Error handling and toasts
   - [docs/quality/error-handling-and-toasts.md](./quality/error-handling-and-toasts.md) 🚨 Missing
 - Logging and monitoring
@@ -72,7 +70,6 @@ Read these documents in order. This file provides a brief overview and links to 
 ### 9) Quality and reliability
 
 - Testing strategy (unit, integration, e2e)
-  - [docs/quality/testing.md](./quality/testing.md) 🚨 Missing
 - Performance guidelines
   - [docs/quality/performance.md](./quality/performance.md) 🚨 Missing
 - Security best practices
@@ -87,7 +84,7 @@ Read these documents in order. This file provides a brief overview and links to 
 - Do’s, don’ts, and common mistakes (based on PR reviews)
   - [docs/team/dos-and-donts.md](./team/dos-and-donts.md) 🚨 Missing
 
-### 11) Operations
+### 10) Operations
 
 - Deployment checklist and environments
   - [docs/operations/deployment.md](./operations/deployment.md) 🚨 Missing
