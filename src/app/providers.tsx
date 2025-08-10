@@ -4,6 +4,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { useMemo } from 'react';
 
 import { PostHogProvider } from '@/components/posthog/posthog-provider';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 type AppProviderProps = {
   children: React.ReactNode;
@@ -14,7 +15,9 @@ export default function AppProviders({ children }: AppProviderProps) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <PostHogProvider>{children}</PostHogProvider>
+      <PostHogProvider>
+        <TooltipProvider>{children}</TooltipProvider>
+      </PostHogProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
   );
