@@ -62,39 +62,23 @@ Read these documents in order. This file provides a brief overview and links to 
 - Next.js Server Actions and database access
   - [docs/backend/server-actions-and-db.md](./backend/server-actions-and-db.md)
 
-### 8) Application utilities
-
-- Shared utilities, hooks, and constants
-- Error handling and toasts
-  - [docs/quality/error-handling-and-toasts.md](./quality/error-handling-and-toasts.md) 🚨 Missing
-- Logging and monitoring
-  - [docs/quality/logging-and-monitoring.md](./quality/logging-and-monitoring.md) 🚨 Missing
-
-### 9) Quality and reliability
-
-- Testing strategy (unit, integration, e2e)
-- Performance guidelines
-  - [docs/quality/performance.md](./quality/performance.md) 🚨 Missing
-- Security best practices
-  - [docs/quality/security.md](./quality/security.md) 🚨 Missing
-
-### 10) Team workflows
+### 8) Team workflows
 
 - Git workflow and branching
-  - [docs/team/git-workflow.md](./team/git-workflow.md) 🚨 Missing
+  - [docs/team/git-workflow.md](./team/git-workflow.md) 🚨 TBD
 - Code review guidelines
-  - [docs/team/code-review-guidelines.md](./team/code-review-guidelines.md) 🚨 Missing
+  - [docs/team/code-review-guidelines.md](./team/code-review-guidelines.md) 🚨 TBD
 - Do’s, don’ts, and common mistakes (based on PR reviews)
-  - [docs/team/dos-and-donts.md](./team/dos-and-donts.md) 🚨 Missing
+  - [docs/team/dos-and-donts.md](./team/dos-and-donts.md) 🚨 TBD
 
-### 10) Operations
+### 9) Operations
 
 - Deployment checklist and environments
-  - [docs/operations/deployment.md](./operations/deployment.md) 🚨 Missing
+  - [docs/operations/deployment.md](./operations/deployment.md) 🚨 TBD
 - Analytics and telemetry (PostHog)
-  - [docs/operations/analytics.md](./operations/analytics.md) 🚨 Missing
+  - [docs/operations/analytics.md](./operations/analytics.md) 🚨 TBD
 - FAQ and troubleshooting
-  - [docs/reference/faq.md](./reference/faq.md) 🚨 Missing
+  - [docs/reference/faq.md](./reference/faq.md) 🚨 TBD
 
 ### Notes
 
