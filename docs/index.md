@@ -70,6 +70,8 @@ Read these documents in order. This file provides a brief overview and links to 
   - [docs/team/code-review-guidelines.md](./team/code-review-guidelines.md) 🚨 TBD
 - Do’s, don’ts, and common mistakes (based on PR reviews)
   - [docs/team/dos-and-donts.md](./team/dos-and-donts.md) 🚨 TBD
+- QA & Acceptance Criteria (developer-driven)
+- [docs/team/qa-and-acceptance-criteria.md](./team/qa-and-acceptance-criteria.md)
 
 ### 9) Operations
 
