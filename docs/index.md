@@ -61,6 +61,8 @@ Read these documents in order. This file provides a brief overview and links to 
   - [docs/backend/auth-and-supabase.md](./backend/auth-and-supabase.md)
 - Next.js Server Actions and database access
   - [docs/backend/server-actions-and-db.md](./backend/server-actions-and-db.md)
+- Supabase instances and migrations (dev/prod workflow)
+  - [docs/backend/supabase-instances-and-migrations.md](./backend/supabase-instances-and-migrations.md)
 
 ### 8) Team workflows
 
